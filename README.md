@@ -1,7 +1,7 @@
 <p align="center">
 	<img src="https://github.com/rosacarla/GFT-start5-java/blob/main/logo-gft.png" width="150">
 </p>  
-<p align="center">BOOTCAMP GFT START #5 JAVA</p>  
+<h1><p align="center">BOOTCAMP GFT START #5 JAVA</p></h1>
 
 <p align="justify">  
 
