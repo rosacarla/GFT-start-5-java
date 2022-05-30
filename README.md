@@ -4,7 +4,9 @@
 <p align="center">BOOTCAMP GFT START #5 JAVA</p>  
 
 <p align="justify">  
-Repositório criado para o desafio de projeto do bootcamp GFT Start #5 Java, disponibilizado na plataforma [Digital Innovation One Inc.](https://web.dio.me). Contém anotações sobre aulas, códigos, exemplos, exercícios, cópias de telas e comprovantes de conclusão para consultas sobre atividades dos cursos realizados.  
+
+Repositório criado para o desafio de projeto do bootcamp _GFT Start #5 Java_, disponibilizado na plataforma [Digital Innovation One Inc.](https://web.dio.me). Contém anotações sobre aulas, códigos, exemplos, exercícios, cópias de telas e comprovantes de conclusão para consultas sobre atividades dos cursos realizados. 
+ 
 </p>
 
 ---
