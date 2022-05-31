@@ -48,8 +48,8 @@ Repositório criado para o desafio de projeto do bootcamp _GFT Start #5 Java_, d
     - Simplificando Projetos Java com o Spring Boot
     - [Explorando Padrões de Projetos na Prática com Java (desafio de projeto)](https://github.com/rosacarla/Padroes-de-projeto-com-Java)  
 
-* **Mentoria (live):**  
-    23/05/2022 - Mentoria Java: Desafio Técnico GFT Start #5 Java   
+* 🆗 Mentoria (live): 
+23/05/2022 - [Mentoria Java: Desafio Técnico GFT Start #5 Java](https://github.com/rosacarla/Mentoria-GFT-Start-Java-Desafio-Tecnico)  
 
 ---
 
