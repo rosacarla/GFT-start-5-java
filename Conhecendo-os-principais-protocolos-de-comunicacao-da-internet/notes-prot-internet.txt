@@ -1,0 +1,104 @@
+>>>>>>>> 30/05/2022 <<<<<<<<
+Conhecendo os Principais Protocolos de Comunicação da Internet
+Profa. Juliana Mascarenhas
+
+#############################################################
+
+1) Introdução
+- Introdução
+ok
+
+2) Protocolo de comunicação Web HTTP
+- Como funciona o protocolo HTTP?
+cliente-servidor = objetosweb-protocolo TCP
+arq cliente-server
+Stateless
+metodo get chama recurso -> req HTTP
+metodo post submete conteudo ao servidor -> envia formulario
+ao servidor com entity body
+HTTP entity body + usados = XML e JSON
+content-type inf se é xml ou json
+XML permite adição de metadados, usa tags, complexo, hierarq,
+
+JSON tem estrutura de dicionario, chave valor, independe de 
+lgm, ordem hierarquica, legivel, sucinto, vetores, app leve.
+TCP faz comunicação na camada de transporte; comunicacao é
+persistente é mantida e não persistente encerra a com depois
+do response (close). HTTP funciona por cima do TCP.
+
+- Mensagens HTTP - Request & Response
+90% das requisições da web sao GET
+Definir formato de requisição pode bloquear acesso indevido,
+TRACE diagnostico da rede
+metodos seguros = get, post, option, sao idempontetes,apenas
+leitura. Seguro quando não há req de mudnça do cliente.
+Response tem entity body = content-length, content-type, 
+data/dados...
+
+- Para que servem os Cookies e Cache?
+Cookie rastreia info do cliente, criadps no servidor pra
+persistir, ficam no header file. Tipos: cookies de sessao
+(apagados no fim da sessao) e cookies persistentes (ex.: 
+login ativo). Exemplo: login ativo, info de website, carri-
+nho de ecomerce. Regidos pela LGPD. Podem ser usados para
+ataque de hacking. 
+Cache - proxy server - reduz tempo de resposta, de trafego.
+
+- HTTP 2.0 - Atualizações de protocolo
+HOL = faz req e bloqueia estado do cliente até ter resposta,
+é evitada pelo HTTP 20 com multiplexação, priorização de re-
+cursos. Há segmentação com uso de streaming, compactar, faz
+diversas requisições; reutilização do header. Oferece push,
+envia tudo que precisa sem esperar req do cliente; não é ha-
+bilitado por default. 
+
+- Servidores/Sistemas de aplicação
+HTTP Servers = APACHE, NGINX, XAMPP (pacote/ambiente)
+Wireshark - ferramenta de análise de pacotes.
+[Wireshark.org](https://www.wireshark.org/)
+
+
+3) HTTPS - O que muda no protocolo?
+- Conceitos básicos de segurança da informação
+ok
+
+- Protocolo SSL - Secure Socket Layer
+SSL funciona por cima do TCP
+Cenario de ataque passivo - listening, fishing
+Cenario de ataque ativo - modifica dados trafegados 
+SSL permite que dados sejam confiáveis, autenticidade,
+lidos por quem tem a chave.
+
+- Operação do SSL e considerações finais
+Handshske - conexao TCP, verifica autenticidade, envio da 
+master secret key, funciona na sessao corrente. 
+http + ssl na porta 443.
+
+
+4) Protocolo de comunicação WebSocket
+- Contextualização
+Websocket implanta conexão bidirecional, roda encapsulado
+no http, portas 80 (recebe msg regulares) e 443 (websocket),
+voltadas pra apps de tempo real, games, web.
+
+- Como funciona o WebSocket?
+API websocket roda em cima do http, ria conexao bidirecio-
+nal entre cliente e servidor. Opera com 2 fases: handshaked
+de 2 vias e data transfer. Modelo de segurança: origin base 
+security, implementado pela maioria dos browsers. A conexao
+é persistente. Restringe páginas web. 
+
+- Como ocorre a comunicação dentro da internet?
+Apache pode administrar 10 conexões simultaneas.
+
+
+5) Conclusao e considerações finais
+- Conclusão e próximos passos
+[RFC HTTP 1.1](https://datatracker.ietf.org/doc/html/rfc2616)
+[RFC HTTP 2.0](https://datatracker.ietf.org/doc/html/rfc7540)
+[RFC Websocket](https://datatracker.ietf.org/doc/html/rfc6455)
+Evolução da aquitetura é arq orientada e eventos e arq orientada
+a mensagem. Tipo de comunicação assíncrona.
+
+
+- Materiais de apoio
