@@ -31,7 +31,7 @@ Repositório criado para o desafio de projeto do bootcamp _GFT Start #5 Java_, d
     - Estruturas de Repetição e Arrays em Java
     - Trabalhando com Collections Java
     - Como resolver desafios de código (mentoria)
-    - [Desafios Iniciais Java - GFT Start #5 (desafio de código)]()  
+    - [Desafios Iniciais Java - GFT Start #5 (desafio de código)](https://github.com/rosacarla/GFT-start-woman-java/tree/main/013%20Desafios-iniciais-java)  
 
 * 🆗 Módulo IV - Java Essencial
     - Debugging Java
@@ -57,7 +57,7 @@ Repositório criado para o desafio de projeto do bootcamp _GFT Start #5 Java_, d
 
 Carga horária: 55 hs  
 Data de conclusão: 30/05/2022  
-Credencial do certificado nº: [X]()  
+Credencial do certificado nº: [CE26DE0E](https://github.com/rosacarla/GFT-start5-java/blob/main/certificates-GFT-start%235-java/019%20GFT-Start%235-Java-CE26DE0E.pdf)  
 
 ---
 
